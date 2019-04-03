@@ -11,6 +11,7 @@ public class CalculatorTest {
         assertEquals( "100", calc.getSumm( BigInteger.valueOf(50), BigInteger.valueOf(50) ).toString());
         assertEquals( "13", calc.getSumm( BigInteger.valueOf(10), BigInteger.valueOf(3) ).toString());
         assertEquals( "123", calc.getSumm( BigInteger.valueOf(120), BigInteger.valueOf(3) ).toString());
+        assertEquals( "123", calc.getSumm( BigInteger.valueOf(120), BigInteger.valueOf(3) ).toString());//fff
     }
 
     @org.junit.Test
